@@ -1,0 +1,25 @@
+{
+  "name": "csc-3100-app",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/abuonya/CSC-3100-NEW#readme",
+  "bugs": {
+    "url": "https://github.com/abuonya/CSC-3100-NEW/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuonya/CSC-3100-NEW.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix packages/react-frontend run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+   ,
+    "workspaces": [
+        "packages/*"
+    ]
+}
